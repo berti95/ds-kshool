@@ -1,0 +1,191 @@
+ls
+echo hola
+echo $SHELL
+ECHO $TERM
+echo $TERM
+date
+echo $date
+echo $HOME
+echo $HISTCHARS
+echo $SHELL
+echo $ERWER
+ABC=Hola
+echo $ABC
+echo "Hoy es el dia$(date)"
+echo Hola
+echo 
+echo "Hola \
+que tal "
+echo "Hola \\
+que tal "
+echo "Hola/\"
+echo "Hola \\\que tal"
+echo "hola";date
+echo hola que tal
+echo "hola"; date
+clear
+cat /etc/os-release
+cat /etc/
+pwd
+ls data
+cat data/README.md
+cat data/shell/Finn.txt
+cat data/shell/Text_example.txt
+ls data/shell
+ls -l data/shell
+cd data
+cd shell
+cat Text_example.txt
+cd ~
+cd data
+cat shell/Text_example.txt
+cd ..
+ls
+ls -a
+ls -l
+chmod 777 books
+ls -l
+chmod 700 books
+ls -l
+ls -s
+mkdir mi_directorio
+cd mi_directorio
+ls
+touch hola
+ls
+ls -l
+mkdir -p /dir1/dir2
+ls
+mkdir -p dir1/dir2
+ls
+mkdir --help
+ls --help
+ls
+cd ..
+cp data/shell/Text_example.txt nuevoejemplo.txt
+ls -l
+cd mi_directorio
+ls
+rm -r dir1
+ls
+mkdir -p dir1/dir2
+ls
+rm -ri dir1
+ls
+cd
+clear
+mkdir first_dir
+touch text_file.txt
+ls
+rm text_file.txt
+ls
+cd first_dir
+ls
+touch text_file.txt
+ls
+ls -l
+chmod 775
+ls -l
+ls -l text_file.txt
+ls -l
+chmod --help
+chmod 775 text_file.txt
+ls -l
+chmod 776 text_file.txt
+ls -l
+chmod 716 text_file.txt
+ls -l
+chmod 712 text_file.txt
+ls -l
+mkdir sub1 sub2
+ls
+mkdir text_file
+ls
+cp text_file.txt sub1/
+ls
+cp text_file.txt /sub1/
+cp text_file.txt /sub1
+ls
+ls sub1
+mv --help
+mv text_file.txt /sub2/text_file.txt.2
+mv text_file.txt sub2/text_file.txt.2
+ls
+ls sub2
+ls sub1
+cp sub1 sub3
+cp -p sub1 sub3
+ls
+cp -p sub1 sub3
+cp -p -r sub1 sub3
+ls
+git
+cd ..
+mkdir repos
+cd repos
+git config --global user.name "Alberto"
+git config --global user.email "alberto.gonzalez.gomez@hotmail.com"
+ls
+git clone https://github.com/berti95/ds-kshool.git
+ls
+cd ds-kshool
+ls
+ls -l
+git diff
+git add README.md
+git status
+git commit
+git push
+git status
+git reset HEAD--head
+git status
+git reset HEAD --hard
+clear
+sudo apt install gedit
+nano .zshrc
+echo $EDITOR
+sudo apt install gedit
+sudo dpkg --configure -a
+gedit .zshrc
+sudo apt install gedit
+gedit .zshrc
+echo $editor
+echo $EDITOR
+LS
+ls
+ls -a
+cat .history
+ls
+ls repos
+ls repos/ds-kshool
+cp .history repos/ds-kschool
+ls repos/ds-kshool
+cp .history repos/ds-kschool
+ls repos/ds-kshool
+cp .history repos/ds-kschool/.history
+cp -r .history repos/ds-kschool/.history
+cp -r .history repos/ds-kschool/
+ls repos/ds-kshool
+cp .history repos/ds-kschool
+ls
+ls repos/ds-kshool
+ls -a
+cp .history repos/ds-kschool
+ls -a repos/ds-kshool
+cat .gitconfig
+cp .history repos/ds-kschool
+cp -a.history repos/ds-kschool
+cp -a .history repos/ds-kschool
+ls -a repos/ds-kshool
+cp .history repos/ds-kschool
+ls -a repos/ds-kshool
+ls -a
+cp .history repos/ds-kschool
+ls -a repos/ds-kshool
+cd repos/ds-kshool
+git status
+cp ~/.history 
+cp ~/.history /
+cp ~/.history .
+ls -l
+cp /home/dsc/.history .
