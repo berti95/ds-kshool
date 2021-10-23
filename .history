@@ -319,3 +319,107 @@ cd ds-kshool
 git status
 cp ~/history .
 cp ~/.history .
+git add .history
+git status
+git commit -m "Update of history file"
+git status
+git push
+git status
+clear
+cd ..
+cd ds-kshool
+git log
+cd ..
+cd data
+cd shell
+ls
+cat Text_example.txt
+grep -nv this "Text_example.txt"
+grep -c this "Text_example.txt"
+grep empty Text_example.txt
+grep -nB empty Text_example.txt
+grep -nB 3 empty Text_example.txt
+grep -n "^T" Text_example.txt
+echo Sunday | sed ssdaysnights
+echo Sunday | 's/day/night/'
+echo Sunday | sed 's/day/night/'
+echo Sunday | sed 's/day/night/\
+
+echo day.day | sed 's/day/night'
+echo day.day | sed 's/day/night/'
+cat Text_example.txt
+cp Text_example.txt Text_example_copy.txt
+cat Text_example_copy.txt
+[200~echo -i 's/this/THAT/gi' Text_example_copy.txt~
+echo -i 's/this/THAT/gi' Text_example_copy.txt~
+cat Text_example_copy.txt
+echo -i 's/this/THAT/gi' Text_example_copy.txt
+cat Text_example_copy.txt
+seq 10 15
+seq 10 15 | sed '3d'
+seq 10 15 | sed '/13/d'
+seq 10 15 | sed '3!d'
+cd ..
+cd opentraveldata
+csvlook -d "^" optd_aircraft.csv | less
+csvlook -d "^" optd_aircraft.csv | less -S
+csvlook -d "^" optd_aircraft.csv
+csvlook -d "^" optd_aircraft.csv | less -S
+csv stat -d "^" optd_aircraft.csv | less -S
+head -100 optd_por_public.csv | csvstat -d "^" | less -S
+csvstat -d "^" manufacturer optd_aircraft.csv
+csvstat -d "^" -c manufacturer optd_aircraft.csv
+csvcut -d "^" -c manufacturer optd_aircraft.csv | head
+csvlook -d "^" -c city_code_list
+csvlook -d "^" -c city_code_list optd_por_public.csv | less -S
+csvcut -d "^" -c 1-3 optd_aircraft.csv | csvstat -d ','
+csvgrep -d "^" -c iata_code -m 380 optd_aircraft.csv
+csvaql -d "^" optd_aircraft.csv
+csvsql -d "^" optd_aircraft.csv
+clear
+zip txt_files.zip  20lines.txt first_10_lines.txt largest_file.txt linea_num_10.txt 
+ls
+zipinfo txt_files.zip
+zcat txt_files.zip
+gzip *.txt
+ls
+zcat linea_num_10.txt.gz
+zless sql_command.txt.gz
+gunzip 20lines.txt.gz first_10_lines.txt.gz largest_file.txt.gz linea_num_10.txt.gz optd_aircraft.csv optd_aircraft_delimitador_nuevo.csv optd_airlines.csv optd_por_public.csv ref_airline_nb_of_flights.csv txt_files.zip 
+ls
+bzip optd_aircraft.csv optd_aircraft_delimitador_nuevo.csv optd_airlines.csv optd_por_public.csv ref_airline_nb_of_flights.csv 
+bzip2 20lines.txt first_10_lines.txt largest_file.txt linea_num_10.txt optd_aircraft.csv optd_aircraft_delimitador_nuevo.csv optd_airlines.csv optd_por_public.csv ref_airline_nb_of_flights.csv txt_files.zip 
+ls
+bzcat_aircraft.csv.bz2 | head
+bzcat optd_aircraft.csv.bz2 | head
+bunzip2 *.csv
+ls
+bunzip2 *.csv
+ls
+bz2 -d *csv
+bzip2 -d *csv
+bunzip2 *.csv
+bunzip2 *csv
+bunzip2 --help
+bunzip2 *csv
+bunzip2 *.csv
+bunzip2 -d  *.csv
+bnzip2 -d  *.csv
+bunzip2 -d  *.csv
+bunzip2  *.csv
+ls
+bunzip2 20lines.txt.bz2
+ls
+bunzip2 first_10_lines.txt.bz2 largest_file.txt.bz2 linea_num_10.txt.bz2 optd_aircraft.csv.bz2 optd_aircraft_delimitador_nuevo.csv.bz2 optd_airlines.csv.bz2 optd_por_public.csv.bz2 ref_airline_nb_of_flights.csv.bz2 txt_files.zip.bz2 
+ls
+clear
+cp ~/.history .
+git status
+cd ..
+ ls
+cd repos
+cd ds-kshool
+$/history .
+cp $/history .
+cp ~/history .
+cp ~/.history .
